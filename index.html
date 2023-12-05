@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Home Page</title>
+		<link rel="stylesheet" href="style.css">
+		<script>
+			function openPage(page) {
+				window.location.href = page;
+			}
+		</script>
+	</head>
+
+	<body>
+		<div>
+			<h1>Welcome! Please login below</h1>
+		</div>
+
+		<div>
+			<table>
+				<tr>
+					<td>Your name: </td>
+					<td><input type="text"></td>
+				</tr>
+				
+				<tr>
+					<td>Passworde: </td>
+					<td><input type="text"></td>
+				</tr>
+
+				<tr>
+					<button onclick="openPage('register.html')">Register</button>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
