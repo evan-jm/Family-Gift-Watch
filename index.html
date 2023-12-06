@@ -14,7 +14,8 @@
 			<h1>Welcome! Please login below</h1>
 		</div>
 
-		<div>
+		<div class="block">
+			<button onclick="openPage('register.html')">Register</button>
 			<form method="post" action="login.php">
 				<table>
 					<tr>
@@ -23,12 +24,12 @@
 					</tr>
 					
 					<tr>
-						<td>Passworde: </td>
+						<td>Password: </td>
 						<td><input type="text"></td>
 					</tr>
 
 					<tr>
-						<button onclick="openPage('register.html')">Register</button>
+						<td colspan="2"><input type="submit" value="Submit"></td>
 					</tr>
 				</table>
 			</form>
