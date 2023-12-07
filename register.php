@@ -13,4 +13,6 @@
 
     $sql = "INSERT INTO USERS (FirstName, LastName, Username, Password)
         VALUES ($firstName, $lastName, $username, $password)";
+
+    header('Location: index.html')
 ?>
