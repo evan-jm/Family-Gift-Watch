@@ -1,38 +1,15 @@
 <html>
-	<head>
-		<title>Home Page</title>
+    <head>
+        <title>Welcome</title>
 		<link rel="stylesheet" href="style.css">
-		<script>
-			function openPage(page) {
-				window.location.href = page;
-			}
-		</script>
-	</head>
+    </head>
 
-	<body>
-		<div>
-			<h1>Welcome! Please login below</h1>
+    <body>
+		<div class="header">
+			Family Gift Watch
+			<a href="index.html">Home</a>
+			<a href="login.html">Login</a>
+			<a href="register.html">Register</a>
 		</div>
-
-		<div class="block">
-			<button onclick="openPage('register.html')">Register</button>
-			<form method="post" action="login.php">
-				<table>
-					<tr>
-						<td>Username: </td>
-						<td><input type="text"></td>
-					</tr>
-					
-					<tr>
-						<td>Password: </td>
-						<td><input type="text"></td>
-					</tr>
-
-					<tr>
-						<td colspan="2"><input type="submit" value="Submit"></td>
-					</tr>
-				</table>
-			</form>
-		</div>
-	</body>
+    </body>
 </html>
