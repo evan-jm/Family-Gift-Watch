@@ -19,10 +19,15 @@ table.td {
     color: white;
     padding: 10px;
     font-size: 30px;
+    display: block;
 }
 
 .header a.current {
     background-color: green;
+}
+
+.header .right {
+    float: right;
 }
 
 .header a {
