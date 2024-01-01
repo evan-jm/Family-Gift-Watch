@@ -13,33 +13,6 @@ table.td {
     width: 100%;
 }
 
-.header {
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    font-size: 30px;
-    display: block;
-}
-
-.header a.current {
-    background-color: green;
-}
-
-.header .right {
-    float: right;
-}
-
-.header a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-}
-
-.header a:hover {
-    background-color: grey;
-}
-
 h1 {
     text-align: center;
 }
@@ -52,4 +25,30 @@ div.mainBlock {
     width: 66%;
     margin: auto;
     text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-size: 30px;
+}
+
+li {
+    display: inline;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background: grey;
+}
+
+a.current {
+    background-color: green;
 }
