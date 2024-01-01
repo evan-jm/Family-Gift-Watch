@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 	<title>Registration</title>
 </head>
 
@@ -11,9 +11,9 @@
 	<div class="header">
 		Family Gift Watch
 		<div class="right">
-			<a href="index.html">Home</a>
-			<a href="login.php">Login</a>
-			<a href="register.php" class="current">Register</a>
+			<a href="../index.html">Home</a>
+			<a href="login.html">Login</a>
+			<a href="register.html" class="current">Register</a>
 		</div>
 	</div>
 	<h1>Register Below</h1>
@@ -41,19 +41,5 @@
 			</tr>
 		</table>
 	</form>
-	<?php
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
-		$dbname = "";
-		$conn = new mysqli($servername, $username, $password, $dbname);
-		$firstName = $_POST[first_name];
-		$lastName = $_POST[last_name];
-		$userName = $_POST[username];
-		$password = $_POST[password];
-		$sql = "INSERT INTO USERS (FirstName, LastName, Username, Password)
-		VALUES ($firstName, $lastName, $userName, $password)";
-		$conn->close();
-	?>
 </body>
 </html>
