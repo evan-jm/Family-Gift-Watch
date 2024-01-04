@@ -1,7 +1,5 @@
 body {
     background-color: #dddddd;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
 }
 
 header {
@@ -11,23 +9,24 @@ header {
 }
 
 .dashboard-main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
     background-color: white;
     position: absolute;
     left: 5%;
     right: 5%;
+    background-color: #dddddd;
 }
 
-.gift-purchase {
+.gift-purchase, .user-lists{
     background-color: white;
     text-align: center;
-    flex: 1;
+    border-style: solid;
 }
 
-.user-lists {
-    background-color: grey;
-    text-align: center;
-    flex: 1;
+.user-lists > a {
+    color: black;
 }
 
 .col1 {
